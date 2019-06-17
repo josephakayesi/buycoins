@@ -1,0 +1,15 @@
+.table td {
+    padding: 0.15rem;
+}
+
+.numbering {
+    padding-left: 0.15rem
+}
+
+.headline {
+    padding: none;
+}
+
+#sub {
+    margin-top: none
+}
