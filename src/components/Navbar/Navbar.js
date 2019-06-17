@@ -4,45 +4,41 @@ import './Navbar.css'
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">Y</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
+            <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#ff6600', height: 30}}>
+                <a className="navbar-brand" href="#"style={{color: 'white'}}>Y</a>
                 <div className="collapse navbar-collapse" id="navbarColor02">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">new</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">new</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">past</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">past</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">comments</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">comments</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">ask</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">ask</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">show</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">show</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">jobs</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">jobs</a>
                         </li>
                         <a className="nav-link" href="#">|</a>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">submit</a>
+                            <a className="nav-link" style={{fontWeight: '700'}} href="#">submit</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     <li className="nav-item">
-                            <a className="nav-link" href="#">login</a>
+                            <a className="nav-link" href="#" style={{fontWeight: '700'}} >login</a>
                         </li>
                     </ul>
 

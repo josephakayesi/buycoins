@@ -27,31 +27,7 @@ class NewsFeed extends Component {
     constructor() {
         super()
 
-        this.state = {
-            newsFeed: [
-                {
-                    title: 'First ttitle',
-                    link: 'firstlink.com',
-                    points: 100,
-                    author: 'johndoe',
-                    comments: 20
-                },
-                {
-                    title: 'Second ttitle',
-                    link: 'secondlink.com',
-                    points: 70,
-                    author: 'rickjames',
-                    comments: 3
-                },
-                {
-                    title: 'Third ttitle',
-                    link: 'thirdlink.com',
-                    points: 85,
-                    author: 'thomaspartey',
-                    comments: 17
-                }
-            ]
-        }
+
     }
     render() {
         const news = this.state.newsFeed
