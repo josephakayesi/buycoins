@@ -10,7 +10,7 @@ function App() {
     <div className="container">
       <Navbar />
       <NewsFeedList />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
